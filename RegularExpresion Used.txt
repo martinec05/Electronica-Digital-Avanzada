@@ -1,0 +1,14 @@
+1. Change date format
+
+Regular expression : (\d\d\d\d)(\.)(\d\d)(\.)(\d\d)
+Replace with: \1\\\3\\\5
+
+2. Change hour format
+
+Regular expression : (\.)(\d\d)(\.)(\d\d)(\.)(\d\d)
+Replace with: \1\2:\4:\6
+
+3. Remove space 
+
+Regular expression to find : (Gate+)(\s)(NG45Y+)(\s)(\d+)
+Replace with : \1\2\3\5
